@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#draw_canvas {
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: black;
+}
+
+#clean_btn {
+  height: 30px;
+  background-color: #1976d2;
+  border: 2px solid #1976d2;
+  border-radius: 5px;
+  color: white;
+}
+
+#clean_btn:hover {
+  background-color: white;
+  color: #1976d2;
+  transition: all 0.3s ease-in-out;
+}
+
+#prediction {
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 52px;
+  height: 52px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.head {
+  background-color: #1565b5;
+  width: 100vw;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  padding: 1px;
+  color: white; /* Optional: Text color for contrast */
+}
+
+body {
+  margin: 0; /* Removes default margin */
+  overflow-x: hidden; /* Hides the horizontal scrollbar */
+}
+
